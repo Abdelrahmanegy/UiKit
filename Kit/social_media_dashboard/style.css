@@ -1,0 +1,90 @@
+body{
+    background-color: #0f172a;
+    padding: 2rem;
+    font-size: 0.875rem;
+}
+
+
+section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
+    gap: 1.5rem;
+    max-width: 75rem;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-content:space-between ;
+    gap: 1.5rem;
+    row-gap: 2rem;
+    padding: 1.5rem;
+    color: #fff;
+    border-radius: 0.5rem;
+    background-color: #1e293b;
+}
+
+.icon{
+    justify-self: end;
+}
+
+span{
+    margin: 0;
+}
+
+.stat{
+    opacity: 0.6;
+}
+
+i.fab{
+    font-size: 1.125rem;
+}
+
+.fa-facebook-square{
+
+    color: #188ffc;
+}
+
+.fa-instagram {
+    color: #927a71;
+  }
+
+  .fa-twitter {
+    color: #25a4eb;
+  }
+
+
+  .fa-youtube {
+    color: #ac0b2e;
+  }
+
+  .count{
+
+    font-size: 2.25rem;
+    font-weight: bold;
+    margin-bottom: -0.25rem;
+  }
+
+  .change{
+    font-size: 0.875rem;
+    align-self: end;
+  }
+
+  .change-positive{
+    color: #3bb584;
+  }
+
+  .change-negative{
+    color: #ca2838;
+  }
+
+  @media (max-width:600px){
+    section{
+        grid-template-columns: minmax(auto,18rem);
+        justify-content: center;
+    }
+  }

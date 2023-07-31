@@ -1,0 +1,86 @@
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: #EDF2F7;
+    padding: 2rem;
+    color: #4A5568;
+}
+
+
+.container{
+   max-width: 32rem;
+    background-color: #fff;
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+}
+
+
+.card-header{
+  display: flex;
+  align-items: center;
+  
+}
+
+
+.avatar{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 9999px;
+    margin-right: 0.75rem;
+    border: 2px solid white;
+    outline: 1px solid #2563eb;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 0.125rem;
+}
+
+.handle{
+    color: #6B7280;
+}
+
+.followers{
+    text-align: right;
+    font-size: 0.875rem;
+    color: #6B7280;
+    margin-left: auto;
+}
+
+.followers-avatars{
+    margin-right: 1rem;
+}
+
+
+.followers-avatars img{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 9999px;
+    border: 1px solid  #ffff;
+    margin-right: -1rem;
+}
+
+.bio{
+    margin-top: 1.5rem;
+    font-size: 0.875rem;
+    color: #4A5568;
+}
+
+.stats{
+
+    margin-top: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.label{
+    font-size: 0.875rem;
+    color: #6B7280;
+}
+
+.count{
+    display: block;
+    font-size: 1.25rem;
+    font-weight: bold;
+}

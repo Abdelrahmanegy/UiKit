@@ -1,0 +1,39 @@
+body{
+    padding: 2.5rem;
+    color: #4b5563;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    max-width: 32rem;
+    margin-bottom: 1.5rem;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1rem;
+}
+
+p{
+    margin-top: 0.25rem;
+}
+
+span{
+    background-color:#ef4444 ;
+    color: #fff;
+    font-size: 0.875rem;
+    border-radius: 9999px;
+    margin-left: 1rem;
+    padding: 0.5rem 1.25rem 0.5rem 1.25rem;
+    flex-shrink: 0;
+}

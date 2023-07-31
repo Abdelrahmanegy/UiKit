@@ -1,0 +1,38 @@
+body{
+    padding: 3.5rem;
+    color: #1F2937;
+    background-color:#ececf8 ;
+    display: flex;
+    justify-content: center;
+}
+
+
+.icon{
+    display: inline-flex;
+     justify-content: center;
+     align-items: center;
+     
+    background-color: #4B5563;
+    color: #fff;
+    width: 3rem;
+    height: 3rem;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    border-radius: 9999px;
+}
+
+i.fa{
+    font-size: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    
+    max-width: 12rem;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+}

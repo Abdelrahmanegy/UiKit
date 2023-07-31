@@ -1,0 +1,29 @@
+body{
+    color: #1F2937;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    width: auto;
+    max-width: none;
+    min-height: 100vh;
+    background-color: #283347;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.testimonial{
+    min-width: 12.5rem;
+    max-width: 20rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    padding: 1.75rem;
+    margin: 1rem;
+}

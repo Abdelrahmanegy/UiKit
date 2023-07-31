@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: none; 
+     width: auto; 
+     /* min-width: 38rem;  */
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0 , 1fr));
+}
+
+
+.item{
+    padding: 3rem;
+    font-size: 2.25rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+      background-size: cover; 
+     background-position: center; 
+     
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+   
+}
+img{
+    height: 300;
+}
+
+.item:nth-child(1){
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),
+    url("img/Adventure_tours.jpeg");
+
+}
+
+.item:nth-child(2){
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),
+    url("img/Adventure_sports.jpeg");
+
+}
+
+
+.item:nth-child(3){
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),
+    url("img/Family_fun.jpeg");
+
+}
+
+
+.item:nth-child(4){
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),
+    url("img/pet_friendly.jpeg");
+
+}
+
+
+@media(max-width:675px){
+    .container{
+        grid-template-columns: minmax(0,1fr);
+    }
+} 
+
+
+

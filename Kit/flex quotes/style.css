@@ -1,0 +1,32 @@
+
+.flex-container{
+    display: flex;  
+}
+.quote{
+    background-color: #DBEAFE;
+    padding: 1.5rem;
+    margin: 0.75rem;
+    border-radius: 0.5rem;
+}
+
+.quote p{
+    font-family: serif;
+    font-style: italic;
+    font-size: 1.125rem;
+    color: #4B5563;
+    line-height: 1.375;
+    margin-bottom: 0.25rem;
+}
+
+.quote span{
+    font-size: 0.875rem;
+    color: #6B7280;
+}
+
+
+@media (max-width:632px){
+    .flex-container{
+        flex-direction: column;
+    }
+}
+

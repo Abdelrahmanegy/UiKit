@@ -1,0 +1,33 @@
+body{
+    background-color: #ebf8ff;
+    color:#2d3748;
+
+}
+
+.container{
+    width: 30rem;
+    margin: 4rem;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+
+.item{
+    padding-bottom: 1.25rem;
+}
+
+.icon{
+    font-size: 3rem;
+    padding-left: 1rem;
+}
+
+h3{
+    font-size: 1.25rem;
+}
+
+p{
+    margin-top: 0.25rem;
+}

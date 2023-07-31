@@ -1,0 +1,30 @@
+body{
+    background-color: #ececf8;
+    color: #4A5568;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+section{
+    display: grid;
+    
+     grid-template-rows: auto auto ; 
+     justify-content: space-between; 
+     grid-auto-flow: column; 
+    background-color: #ffffff;
+    max-width: 36rem;
+    padding: 2rem;
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1rem;
+}
+
+span{
+    font-size: 1.875rem;
+    font-weight: bold;
+}
+
+ p{
+    font-weight: 600;
+} 

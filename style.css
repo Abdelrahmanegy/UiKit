@@ -1,0 +1,99 @@
+body{
+ font-family: 'Poppins', sans-serif;
+ 
+}
+
+
+
+header {
+    text-align: center;
+    margin-top: 4rem;
+    padding: 1rem;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+header p {
+    font-size: 1.3rem;
+}
+
+@media (max-width:637px){
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1.1rem;
+    }
+}
+
+
+/* features section */
+
+.features {
+    text-align: center;
+    margin-top: 7rem;
+    padding: 1rem;
+}
+
+.features h2 {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+}
+
+.features li {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+
+/* Demos section */
+.Demos {
+    text-align: center;
+    margin-top: 8rem;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.Demos .demo-container {
+    margin-top: 7rem;
+}
+
+
+.Demos .demo-container h3 {
+    margin-bottom: 3rem;
+}
+
+
+.Demos .demo-container .demo-img{
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.Demos .demo-container .demo-img img{
+    border-radius: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.demo-container  .demo-link{
+    background-color: #000;
+    color: #fff;
+    margin-top: 3rem;
+    border-radius: 9999px;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+} 
+
+
+@media(max-width:637px){
+    .Demos .demo-container h3 {
+        font-size: 1.5rem;
+    }
+}
+
+

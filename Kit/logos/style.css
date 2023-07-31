@@ -1,0 +1,21 @@
+body{
+    color:  #2d3748;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(16rem,1fr));
+    justify-items: center;
+    gap: 3rem;
+    max-width: none;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f7fafc;
+    padding: 3rem;
+    border-radius: 1rem;
+}
+
+img{
+    height: 2.5rem;
+}

@@ -1,0 +1,35 @@
+body{
+    color: #2d3748;
+}
+
+.wrapper{
+    background-color: #4a5568;
+    color: #fff;
+    border-radius: 1rem;
+    max-width: 100rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2rem;
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item{
+    padding: 1.5rem;
+}
+
+
+h2{
+    color: #6bc2d1;
+}
+
+p{
+    margin-top: 1rem;
+}

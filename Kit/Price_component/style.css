@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+
+body{
+    background-color: #E2E8F0;
+    color: #4B5563;
+    padding: 2rem;
+    font-family:'Karla', sans-serif; ;
+}
+
+
+.container{
+    display: grid;
+    max-width: 42rem;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.container > div{
+    padding: 2.5rem;
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+    margin-top: 0.75rem ;
+    font-size: 0.875rem;
+}
+
+.header{
+   background-color: #fff;
+   color: #6B7280;
+   border-top-left-radius: 1rem;
+   border-top-right-radius: 1rem;
+   
+}
+
+.subscription{
+    background-color: #57afae;
+    color: #fff;
+    
+}
+
+.why{
+    background-color: #6abcbc;
+    color: #fff;
+    
+    line-height: 1.7;
+    
+    border-bottom-right-radius: 1rem;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 1.875rem;
+    color: #0d9488;
+}
+
+h3{
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.header h3{
+    color: #c0e6be;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+
+.price{
+    display: inline-block;
+    margin-top: 0.625rem;
+    font-weight: bold;
+    vertical-align: middle;
+    font-size: 2.25rem;
+}
+
+.per{
+    display: inline-block;
+    margin-top: 0.625rem;
+    vertical-align: middle;
+    padding-left: 0.75rem;
+}
+
+
+a{
+    text-decoration: none;
+
+}
+
+#sign-up{
+    display: block;
+    margin-top: 1.5rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    background-color: #c0df34;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 0.25rem;
+}
+
+p{
+    margin-top: 0.25rem;
+}
+
+
+@media (min-width:640px){
+    .container{
+        grid-template-columns: repeat(2,minmax(0,1fr));
+    }
+
+    .header{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .subscription{
+        border-bottom-left-radius: 1rem;
+    }
+
+    .why{
+        border-bottom-right-radius: 1rem;
+    }
+
+   .header{
+      border-top-left-radius: 1rem;
+      border-top-right-radius: 1rem;
+   }
+
+
+}
+
+@media (max-width:640px){
+    .why{
+        border-bottom-left-radius:1rem;
+    }
+}
+
+
